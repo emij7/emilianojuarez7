@@ -18,6 +18,10 @@
       border-bottom: 0.2rem solid $primary-color;
       text-align: center;
       font-size: 1.5rem;
+      font-weight: 500;
+    }
+    &--top-border {
+      border-top: 0.2rem solid $primary-color;
     }
     &--appear {
       position: absolute;

@@ -14,10 +14,10 @@ const NavbarMenu = () =>{
             </button>
             {menu?( 
             <div className='navbar__links--appear'>
-                <a href="/#">Sobre mi</a>
-                <a href="/#">Certificados</a>
-                <a href="/#">Proyectos</a>
-                <a href="/#">Contacto</a>
+                <a href="/#" className='navbar__links--top-border'>SOBRE MI</a>
+                <a href="/#">CERTIFICADOS</a>
+                <a href="/#">PROYECTOS</a>
+                <a href="/#">CONTACTO</a>
             </div>)
             : (null)}
         </div>

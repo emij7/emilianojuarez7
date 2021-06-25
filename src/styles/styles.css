@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,500;0,700;1,400&display=swap");
 .navbar {
   display: -ms-grid;
   display: grid;
@@ -33,6 +34,11 @@
   border-bottom: 0.2rem solid #21216b;
   text-align: center;
   font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.navbar__links--top-border {
+  border-top: 0.2rem solid #21216b;
 }
 
 .navbar__links--appear {
@@ -86,6 +92,17 @@
             align-items: center;
     text-align: center;
   }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Arimo", sans-serif;
 }
 
 a {
