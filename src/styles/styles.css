@@ -1,4 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,500;0,700;1,400&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Arimo", sans-serif;
+}
+
+@-webkit-keyframes slideInMenu {
+  from {
+    -webkit-transform: scaley(0);
+            transform: scaley(0);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    opacity: 0;
+  }
+  to {
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    -webkit-transform: scaley(1);
+            transform: scaley(1);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInMenu {
+  from {
+    -webkit-transform: scaley(0);
+            transform: scaley(0);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    opacity: 0;
+  }
+  to {
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    -webkit-transform: scaley(1);
+            transform: scaley(1);
+    opacity: 1;
+  }
+}
+
 .navbar {
   display: -ms-grid;
   display: grid;
@@ -35,6 +80,7 @@
   text-align: center;
   font-size: 1.5rem;
   font-weight: 500;
+  background-color: white;
 }
 
 .navbar__links--top-border {
@@ -50,8 +96,34 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  top: 100%;
-  width: 15rem;
+  top: calc(100% + 0.3rem);
+  width: 100vw;
+  -webkit-animation-name: slideInMenu;
+          animation-name: slideInMenu;
+  -webkit-animation-duration: 450ms;
+          animation-duration: 450ms;
+}
+
+.navbar__links--disappear {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: calc(100% + 0.3rem);
+  width: 100vw;
+  -webkit-transition: opacity 0.45s, -webkit-transform 0.45s;
+  transition: opacity 0.45s, -webkit-transform 0.45s;
+  transition: transform 0.45s, opacity 0.45s;
+  transition: transform 0.45s, opacity 0.45s, -webkit-transform 0.45s;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  opacity: 0;
+  -webkit-transform: scaley(0);
+          transform: scaley(0);
 }
 
 .navbar__img-container {
@@ -71,9 +143,16 @@
 .navbar__menu-icon {
   background-color: white;
   border-radius: 0.7rem;
+  height: 90%;
+  margin-right: 1rem;
 }
 
 .navbar__menu-icon img {
+  height: 90%;
+}
+
+.navbar__button-container {
+  width: 5rem;
   height: 5rem;
 }
 
@@ -92,17 +171,6 @@
             align-items: center;
     text-align: center;
   }
-}
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-html {
-  font-family: "Arimo", sans-serif;
 }
 
 a {

@@ -1,3 +1,16 @@
+@keyframes slideInMenu {
+  from {
+    transform: scaley(0);
+    transform-origin: top;
+    opacity: 0;
+  }
+  to {
+    transform-origin: top;
+    transform: scaley(1);
+    opacity: 1;
+  }
+}
+
 .navbar {
   display: grid;
   grid-template-columns: 65% 35%;
@@ -19,6 +32,7 @@
       text-align: center;
       font-size: 1.5rem;
       font-weight: 500;
+      background-color: white;
     }
     &--top-border {
       border-top: 0.2rem solid $primary-color;
@@ -27,8 +41,23 @@
       position: absolute;
       display: flex;
       flex-direction: column;
-      top: 100%;
-      width: 15rem;
+      top: calc(100% + 0.3rem);
+      width: 100vw;
+      animation-name: slideInMenu;
+      animation-duration: 450ms;
+    }
+    &--disappear {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      top: calc(100% + 0.3rem);
+      width: 100vw;
+      // animation-name: slideOutMenu;
+      // animation-duration: 450ms;
+      transition: transform 0.45s, opacity 0.45s;
+      transform-origin: top;
+      opacity: 0;
+      transform: scaley(0);
     }
   }
   &__img-container {
@@ -42,9 +71,15 @@
   &__menu-icon {
     background-color: white;
     border-radius: 0.7rem;
+    height: 90%;
+    margin-right: 1rem;
     & img {
-      height: 5rem;
+      height: 90%;
     }
+  }
+  &__button-container {
+    width: 5rem;
+    height: 5rem;
   }
 }
 @media screen and (min-width: $medium) {
