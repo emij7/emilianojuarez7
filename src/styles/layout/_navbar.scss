@@ -13,8 +13,9 @@
 
 .navbar {
   display: grid;
+  font-weight: 500;
   grid-template-columns: 65% 35%;
-  height: 15%;
+  height: 88.8px;
   width: 100%;
   border-bottom: 0.3rem solid $primary-color;
   &__links {
@@ -52,12 +53,11 @@
       flex-direction: column;
       top: calc(100% + 0.3rem);
       width: 100vw;
-      // animation-name: slideOutMenu;
-      // animation-duration: 450ms;
-      transition: transform 0.45s, opacity 0.45s;
-      transform-origin: top;
       opacity: 0;
       transform: scaley(0);
+    }
+    &--empty {
+      display: none;
     }
   }
   &__img-container {
@@ -73,6 +73,7 @@
     border-radius: 0.7rem;
     height: 90%;
     margin-right: 1rem;
+    border-color: $primary-color;
     & img {
       height: 90%;
     }
@@ -85,11 +86,25 @@
 @media screen and (min-width: $medium) {
   .navbar {
     grid-template-columns: 30% 70%;
-  }
-  .navbar__links {
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-    align-items: center;
-    text-align: center;
+    &__menu-icon {
+      display: none;
+    }
+    &__links {
+      align-items: center;
+      &--row {
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        width: 100%;
+        gap: 0.2rem;
+      }
+      & a {
+        color: $secondary-color;
+        border: none;
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: bold;
+        background-color: white;
+      }
+    }
   }
 }

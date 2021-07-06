@@ -1,12 +1,14 @@
 import React,{useState} from 'react'
 import menuIcon from '../images/menu.png'
 import cancel from '../images/cancel.png'
+import useWidth from '../hooks/useWidth';
 
 const NavbarMenu = () =>{
     const [menu,setMenu] = useState(false);
     const handleClick = ()=>{
         setMenu(!menu)
     }
+    let currentWidth = useWidth()
     return(
         <div className='navbar__links'>
             <button className='navbar__menu-icon' onClick={handleClick}>
@@ -14,11 +16,16 @@ const NavbarMenu = () =>{
                     <img src={menu?cancel:menuIcon} alt="Deploy menu icon" />
                 </div>
             </button>
-            <div className={!menu?'navbar__links--disappear':'navbar__links--appear'}>
-                <a href="/#">Sobre mi</a>
-                <a href="/#">Certificados</a>
-                <a href="/#">Proyectos</a>
-                <a href="/#">Contacto</a>
+            <div className={currentWidth<768?
+             menu?
+                    'navbar__links--appear'
+                    :'navbar__links--empty'
+            :'navbar__links--row'
+            }>
+                <a href="#about" onClick={handleClick}>SOBRE MI</a>
+                <a href="/#" onClick={handleClick}>CERTIFICADOS</a>
+                <a href="/#" onClick={handleClick}>PROYECTOS</a>
+                <a href="/#" onClick={handleClick}>CONTACTO</a>
             </div>
         </div>
     )
