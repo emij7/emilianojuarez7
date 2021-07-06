@@ -5,13 +5,13 @@ import myPic from '../images/myPic.jpg'
 const About = () =>{    
     let currentWidth = useWidth()
     return(
-        <div>
+        <div className='about__container'>
             <div className='title'>
                 <h1>¡Hola!</h1>
                 <h2>Mi nombre es Ignacio Emiliano Juárez y esta es mi página personal.</h2>
                 <figure className='title__figure'>
                     <img src={myPic} alt="Photograph of Ignacio holding a trophy" />
-                    <figcaption>Yo sosteniendo un trofeo de Handball.</figcaption>
+                    <figcaption>Premiación de Handball en San Luis. 2018.</figcaption>
                 </figure>
             </div>
             <section id='about' className='about'>

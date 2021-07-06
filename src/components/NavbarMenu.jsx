@@ -23,7 +23,7 @@ const NavbarMenu = () =>{
             :'navbar__links--row'
             }>
                 <a href="#about" onClick={handleClick}>SOBRE MI</a>
-                <a href="/#" onClick={handleClick}>CERTIFICADOS</a>
+                <a href="#certifications" onClick={handleClick}>CERTIFICADOS</a>
                 <a href="/#" onClick={handleClick}>PROYECTOS</a>
                 <a href="/#" onClick={handleClick}>CONTACTO</a>
             </div>

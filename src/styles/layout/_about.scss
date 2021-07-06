@@ -3,8 +3,8 @@
 }
 .title h1,
 .title h2 {
-  text-align: center;
   margin: 0.4rem 1rem;
+  text-align: center;
 }
 .title h1 {
   color: $titles-color;
@@ -16,8 +16,8 @@
     flex-direction: column;
     margin: 0.4rem 0;
     & img {
-      max-width: 80%;
       border: 0.3rem double $secondary-color;
+      max-width: 80%;
     }
     & figcaption {
       font-size: 0.9rem;
@@ -28,8 +28,29 @@
 .about {
   margin: 0.4rem 1rem;
   &__thanks {
-    text-align: center;
-    margin-top: 0.4rem;
     color: $primary-color;
+    margin-top: 0.4rem;
+    text-align: center;
+  }
+  &__container {
+    border-bottom: 0.2rem solid $primary-color;
+  }
+}
+@media screen and (min-width: $medium) {
+  .title {
+    & h1 {
+      font-size: 3.5rem;
+    }
+    & h2 {
+      font-size: 2.5rem;
+      margin: 0.4rem 4rem;
+    }
+  }
+  .about {
+    margin: 0.4rem 4rem;
+    & p {
+      font-size: 1.5rem;
+      margin: 2rem 0;
+    }
   }
 }
