@@ -188,6 +188,29 @@
     margin: 2rem 0;
   }
 }
+.certif__container {
+  margin: 0.4rem 1rem;
+}
+.certif__filter {
+  margin: 0.4rem 0rem 1rem 0rem;
+}
+.certif__filter-text {
+  font-weight: bold;
+  margin: 0rem 0.4rem 0rem 0rem;
+}
+.certif__list {
+  display: grid;
+  gap: 0.4rem;
+  grid-template-columns: repeat(auto-fill, 280px);
+  grid-auto-rows: 2rem;
+  justify-content: center;
+}
+.certif__search {
+  border-color: #f7931a;
+  height: 2rem;
+  min-width: 50%;
+}
+
 a {
   text-decoration: none;
   color: black;

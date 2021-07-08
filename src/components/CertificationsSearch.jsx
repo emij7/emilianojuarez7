@@ -17,19 +17,21 @@ const CertificationsSearch = () =>{
         <div className='certif__container' id='certifications'>
             <div className='certif__filter'>
                 <label htmlFor="search">
-                    <input onChange={handleSearch} className='certif__search' type="text" value={search} placeholder='Busca certificados . . .' />
+                    <span className='certif__filter-text'>Busca Certificados: </span>
+                    <input onChange={handleSearch} className='certif__search' type="text" value={search} placeholder='Escribe aquí . . .' />
                 </label>
             </div>
             <div className="certif__list">{
                 currentWidth<768?
                 filteredCertif.map(certificate=>{
-                    if(certificate.importante){
-                        return <p>{certificate.name}</p>
+                    if(certificate.important){
+                        return <p key={certificate.id}>{certificate.name}</p>
                     }
                 })
                 :filteredCertif.map(certificate=>{
-                    return <p>{certificate.name}</p>
+                    return <p key={certificate.id}>{certificate.name}</p>
                 })
+                
             }
             </div>
         </div>
