@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/emilianojuarez7/static/css/main.809ede3f.chunk.css",
-    "main.js": "/emilianojuarez7/static/js/main.4256f87a.chunk.js",
-    "main.js.map": "/emilianojuarez7/static/js/main.4256f87a.chunk.js.map",
+    "main.css": "/emilianojuarez7/static/css/main.68efbef8.chunk.css",
+    "main.js": "/emilianojuarez7/static/js/main.edd7662c.chunk.js",
+    "main.js.map": "/emilianojuarez7/static/js/main.edd7662c.chunk.js.map",
     "runtime-main.js": "/emilianojuarez7/static/js/runtime-main.5d50f389.js",
     "runtime-main.js.map": "/emilianojuarez7/static/js/runtime-main.5d50f389.js.map",
     "static/js/2.11b99453.chunk.js": "/emilianojuarez7/static/js/2.11b99453.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.2b39ccc2.chunk.js": "/emilianojuarez7/static/js/3.2b39ccc2.chunk.js",
     "static/js/3.2b39ccc2.chunk.js.map": "/emilianojuarez7/static/js/3.2b39ccc2.chunk.js.map",
     "index.html": "/emilianojuarez7/index.html",
-    "static/css/main.809ede3f.chunk.css.map": "/emilianojuarez7/static/css/main.809ede3f.chunk.css.map",
+    "static/css/main.68efbef8.chunk.css.map": "/emilianojuarez7/static/css/main.68efbef8.chunk.css.map",
     "static/js/2.11b99453.chunk.js.LICENSE.txt": "/emilianojuarez7/static/js/2.11b99453.chunk.js.LICENSE.txt",
     "static/media/MiLogo.2707effe.png": "/emilianojuarez7/static/media/MiLogo.2707effe.png",
     "static/media/cancel.d8f4216c.png": "/emilianojuarez7/static/media/cancel.d8f4216c.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.5d50f389.js",
     "static/js/2.11b99453.chunk.js",
-    "static/css/main.809ede3f.chunk.css",
-    "static/js/main.4256f87a.chunk.js"
+    "static/css/main.68efbef8.chunk.css",
+    "static/js/main.edd7662c.chunk.js"
   ]
 }
