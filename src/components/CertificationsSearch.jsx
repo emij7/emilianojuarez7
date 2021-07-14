@@ -25,11 +25,11 @@ const CertificationsSearch = () =>{
                 currentWidth<768?
                 filteredCertif.map(certificate=>{
                     if(certificate.important){
-                        return <p key={certificate.id}>{certificate.name}</p>
+                        return <a href={certificate.link} key={certificate.id} target='_blank'>{certificate.name}</a>
                     }
                 })
                 :filteredCertif.map(certificate=>{
-                    return <p key={certificate.id}>{certificate.name}</p>
+                    return <a href={certificate.link} key={certificate.id} target='_blank'>{certificate.name}</a>
                 })
                 
             }

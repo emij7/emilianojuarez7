@@ -36,7 +36,7 @@ const list = [
     },
     {
         'id':6,
-        'name': 'Curso de ECMASCRIPT 6+',
+        'name': 'Curso de ECMASCRIPT 6+ - Javascript',
         'plataforma':'Platzi',
         'important':false,
         'link':'https://platzi.com/p/emij7/curso/1815-ecmascript-6/diploma/detalle/'
@@ -99,7 +99,7 @@ const list = [
     },
     {
         'id':15,
-        'name': 'Curso de responsive design: maquetación mobile first',
+        'name': 'Curso de responsive design: maquetación mobile first. HTML-CSS',
         'plataforma':'Platzi',
         'important':false,
         'link':'https://platzi.com/p/emij7/curso/2030-mobile-first/diploma/detalle/'

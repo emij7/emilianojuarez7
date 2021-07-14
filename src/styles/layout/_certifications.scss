@@ -3,7 +3,9 @@
     margin: 0.4rem 1rem;
   }
   &__filter {
-    margin: 0.4rem 0rem 1rem 0rem;
+    display: flex;
+    justify-content: center;
+    margin: 0.4rem 1rem 1rem 1rem;
     &-text {
       font-weight: bold;
       margin: 0rem 0.4rem 0rem 0rem;
@@ -11,14 +13,27 @@
   }
   &__list {
     display: grid;
-    gap: 0.4rem;
+    gap: 1rem;
     grid-template-columns: repeat(auto-fill, 280px);
-    grid-auto-rows: 2rem;
     justify-content: center;
+    text-align: center;
+    & a {
+      align-items: center;
+      background-color: $secondary-color;
+      display: flex;
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 1rem;
+      height: 5rem;
+      justify-content: center;
+      letter-spacing: 0.1rem;
+      text-align: center;
+    }
   }
   &__search {
     border-color: $secondary-color;
     height: 2rem;
     min-width: 50%;
+    width: 15rem;
   }
 }

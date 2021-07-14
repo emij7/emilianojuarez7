@@ -7,8 +7,8 @@ const About = () =>{
     return(
         <div className='about__container'>
             <div className='title'>
-                <h1>¡Hola!</h1>
-                <h2>Mi nombre es Ignacio Emiliano Juárez y esta es mi página personal.</h2>
+                <h1>¡HOLA!</h1>
+                <h2>Mi nombre es Ignacio Emiliano Juárez y esta es mi página personal. <br />(Actualmente en actualización)</h2>
                 <figure className='title__figure'>
                     <img src={myPic} alt="Photograph of Ignacio holding a trophy" />
                     <figcaption>Premiación de Handball en San Luis. 2018.</figcaption>
@@ -21,7 +21,7 @@ const About = () =>{
                 <div>
                     <p>Tengo mucho para ofrecer, mientras trabajo sigo estudiando distintas tecnologías de desarrollo, estoy mejorando mi inglés para que sea mi segundo lenguaje, soy responsable con las tareas que me son asignadas y creo en que el trabajo en equipo es la forma adecuada de conseguir metas.</p>
                     <p>He llegado al mundo de la programación gracias a un amigo, desde que supe que existía la programación supe que esto es lo que quiero hacer. Me satisface mucho resolver problemas y poder crear contenido.</p>
-                    <p>A vos que está del otro lado de la pantalla, sientete libre de contactarme por la razón que sea. En este momento estoy buscando un trabajo fijo como desarrollador pero también puedes escribirme para hablar sobre lenguaje o para darme feedback sobre mi web y con gusto te respondo. Escribime a mi correo: <span className='about--highlight-text'>juarezignacioemiliano@gmail.com</span> o encuentrame en otras redes que se encuentran abajo al final de la página.
+                    <p>A vos que está del otro lado de la pantalla, sientete libre de contactarme por la razón que sea. En este momento estoy buscando un trabajo fijo como desarrollador pero también puedes escribirme para hablar sobre lenguaje o para darme feedback sobre mi web y con gusto te respondo. Escribime a mi correo: <span className='about--highlight-text'>juarezignacioemiliano@gmail.com</span> o encuentrame en otras redes que se encuentran al final de la página.
                 </p>
                 </div>
                 :null}
