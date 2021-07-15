@@ -10,6 +10,10 @@
       font-weight: bold;
       margin: 0rem 0.4rem 0rem 0rem;
     }
+    & label {
+      display: flex;
+      flex-direction: column;
+    }
   }
   &__list {
     display: grid;

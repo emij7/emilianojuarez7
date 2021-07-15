@@ -200,6 +200,10 @@
   font-weight: bold;
   margin: 0rem 0.4rem 0rem 0rem;
 }
+.certif__filter label {
+  display: flex;
+  flex-direction: column;
+}
 .certif__list {
   display: grid;
   gap: 1rem;
