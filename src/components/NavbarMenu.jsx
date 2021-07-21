@@ -10,7 +10,7 @@ const NavbarMenu = () =>{
     }
     let currentWidth = useWidth()
     return(
-        <div className='navbar__links'>
+        <nav className='navbar__links'>
             <button className='navbar__menu-icon' onClick={handleClick}>
                 <div className='navbar__button-container'>
                     <img src={menu?cancel:menuIcon} alt="Deploy menu icon" />
@@ -23,11 +23,11 @@ const NavbarMenu = () =>{
             :'navbar__links--row'
             }>
                 <a href="#about" onClick={handleClick}>SOBRE MI</a>
-                <a href="#certifications" onClick={handleClick}>CERTIFICADOS</a>
-                <a href="/#" onClick={handleClick}>PROYECTOS</a>
+                <a href="#certifications" onClick={handleClick}>PROYECTOS</a>
+                <a href="/#" onClick={handleClick}>CERTIFICADOS</a>
                 <a href="/#" onClick={handleClick}>CONTACTO</a>
             </div>
-        </div>
+        </nav>
     )
 }
 

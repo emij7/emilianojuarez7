@@ -180,6 +180,14 @@ const list = [
         'plataforma':'FreeCodeCamp',
         'important':true,
         'link':'https://freecodecamp.org/certification/emij7/javascript-algorithms-and-data-structures'
+    },
+    {
+        'id':27,
+        'name': 'Curso Práctico de Javascript',
+        'plataforma':'Platzi',
+        'important':false,
+        'link':'https://platzi.com/p/emij7/curso/2327-javascript-practico/diploma/detalle/'
     }
+
 ]
 export default list;
