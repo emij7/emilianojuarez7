@@ -25,7 +25,7 @@ const NavbarMenu = () =>{
                 <a href="#about" onClick={handleClick}>SOBRE MI</a>
                 <a href="#projects" onClick={handleClick}>PROYECTOS</a>
                 <a href="#certifications" onClick={handleClick}>CERTIFICADOS</a>
-                <a href="/#" onClick={handleClick}>CONTACTO</a>
+                <a href="#contact" onClick={handleClick}>CONTACTO</a>
             </div>
         </nav>
     )

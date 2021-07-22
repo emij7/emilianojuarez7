@@ -24,6 +24,14 @@
     margin: 0.4rem 1rem;
     text-align: center;
   }
+  &__back-to-top-link {
+    margin: 0.4rem 1rem;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    color: $secondary-color;
+    text-decoration: underline;
+  }
 }
 @media screen and (min-width: $medium) {
   .footer {
