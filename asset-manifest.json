@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/emilianojuarez7/static/css/main.8bb34d36.chunk.css",
-    "main.js": "/emilianojuarez7/static/js/main.409b25f8.chunk.js",
-    "main.js.map": "/emilianojuarez7/static/js/main.409b25f8.chunk.js.map",
+    "main.css": "/emilianojuarez7/static/css/main.9dcd3215.chunk.css",
+    "main.js": "/emilianojuarez7/static/js/main.0d1c65b2.chunk.js",
+    "main.js.map": "/emilianojuarez7/static/js/main.0d1c65b2.chunk.js.map",
     "runtime-main.js": "/emilianojuarez7/static/js/runtime-main.5d50f389.js",
     "runtime-main.js.map": "/emilianojuarez7/static/js/runtime-main.5d50f389.js.map",
     "static/js/2.11b99453.chunk.js": "/emilianojuarez7/static/js/2.11b99453.chunk.js",
@@ -10,17 +10,21 @@
     "static/js/3.2b39ccc2.chunk.js": "/emilianojuarez7/static/js/3.2b39ccc2.chunk.js",
     "static/js/3.2b39ccc2.chunk.js.map": "/emilianojuarez7/static/js/3.2b39ccc2.chunk.js.map",
     "index.html": "/emilianojuarez7/index.html",
-    "static/css/main.8bb34d36.chunk.css.map": "/emilianojuarez7/static/css/main.8bb34d36.chunk.css.map",
+    "static/css/main.9dcd3215.chunk.css.map": "/emilianojuarez7/static/css/main.9dcd3215.chunk.css.map",
     "static/js/2.11b99453.chunk.js.LICENSE.txt": "/emilianojuarez7/static/js/2.11b99453.chunk.js.LICENSE.txt",
     "static/media/MiLogo.2707effe.png": "/emilianojuarez7/static/media/MiLogo.2707effe.png",
     "static/media/cancel.d8f4216c.png": "/emilianojuarez7/static/media/cancel.d8f4216c.png",
+    "static/media/github.af867a0b.png": "/emilianojuarez7/static/media/github.af867a0b.png",
+    "static/media/gmail.ed25b468.png": "/emilianojuarez7/static/media/gmail.ed25b468.png",
+    "static/media/linkedin.0022272b.png": "/emilianojuarez7/static/media/linkedin.0022272b.png",
     "static/media/menu.b6d20217.png": "/emilianojuarez7/static/media/menu.b6d20217.png",
-    "static/media/myPic.691dffab.jpg": "/emilianojuarez7/static/media/myPic.691dffab.jpg"
+    "static/media/myPic.691dffab.jpg": "/emilianojuarez7/static/media/myPic.691dffab.jpg",
+    "static/media/whatsapp.11c7509d.png": "/emilianojuarez7/static/media/whatsapp.11c7509d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5d50f389.js",
     "static/js/2.11b99453.chunk.js",
-    "static/css/main.8bb34d36.chunk.css",
-    "static/js/main.409b25f8.chunk.js"
+    "static/css/main.9dcd3215.chunk.css",
+    "static/js/main.0d1c65b2.chunk.js"
   ]
 }
