@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () =>{
     return (
-        <div className='projects__container'>
+        <div className='projects__container' id='projects'>
             <h2 className='projects__title'>Proyectos personales</h2>
             <h3 className='projects__second-title'>¡Aquí encontraras mis mejores proyectos!</h3>
             <div className='projects__list'>

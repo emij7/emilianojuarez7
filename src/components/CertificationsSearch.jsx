@@ -15,9 +15,11 @@ const CertificationsSearch = () =>{
     let currentWidth = useWidth()
     return(
         <div className='certif__container' id='certifications'>
+            <h2 className="certif__title">Certificados</h2>
+            <h3 className="certif__second-title">Links a diplomas de mis cursos mas importantes.</h3>
             <div className='certif__filter'>
                 <label htmlFor="search">
-                    <span className='certif__filter-text'>Busca Certificados: </span>
+                    <span className='certif__filter-text'>Buscá certificados por nombre: </span>
                     <input onChange={handleSearch} className='certif__search' type="text" value={search} placeholder='Escribe aquí . . .' />
                 </label>
             </div>

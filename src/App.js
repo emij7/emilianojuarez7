@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import CertificationsSearch from './components/CertificationsSearch';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <About/>
       <Projects/>
       <CertificationsSearch/>
+      <Footer/>
     </div>
   );
 }
