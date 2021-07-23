@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/emilianojuarez7/static/css/main.c69d865a.chunk.css",
-    "main.js": "/emilianojuarez7/static/js/main.4f970e9e.chunk.js",
-    "main.js.map": "/emilianojuarez7/static/js/main.4f970e9e.chunk.js.map",
+    "main.js": "/emilianojuarez7/static/js/main.2cb1808d.chunk.js",
+    "main.js.map": "/emilianojuarez7/static/js/main.2cb1808d.chunk.js.map",
     "runtime-main.js": "/emilianojuarez7/static/js/runtime-main.5d50f389.js",
     "runtime-main.js.map": "/emilianojuarez7/static/js/runtime-main.5d50f389.js.map",
     "static/js/2.11b99453.chunk.js": "/emilianojuarez7/static/js/2.11b99453.chunk.js",
@@ -12,6 +12,7 @@
     "index.html": "/emilianojuarez7/index.html",
     "static/css/main.c69d865a.chunk.css.map": "/emilianojuarez7/static/css/main.c69d865a.chunk.css.map",
     "static/js/2.11b99453.chunk.js.LICENSE.txt": "/emilianojuarez7/static/js/2.11b99453.chunk.js.LICENSE.txt",
+    "static/media/MiLogo.2707effe.png": "/emilianojuarez7/static/media/MiLogo.2707effe.png",
     "static/media/cancel.d8f4216c.png": "/emilianojuarez7/static/media/cancel.d8f4216c.png",
     "static/media/github.af867a0b.png": "/emilianojuarez7/static/media/github.af867a0b.png",
     "static/media/gmail.ed25b468.png": "/emilianojuarez7/static/media/gmail.ed25b468.png",
@@ -25,6 +26,6 @@
     "static/js/runtime-main.5d50f389.js",
     "static/js/2.11b99453.chunk.js",
     "static/css/main.c69d865a.chunk.css",
-    "static/js/main.4f970e9e.chunk.js"
+    "static/js/main.2cb1808d.chunk.js"
   ]
 }
