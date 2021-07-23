@@ -49,6 +49,10 @@
       grid-column-start: 1;
       grid-column-end: -1;
       margin: 1rem 0;
+      background-color: white;
+      &:hover {
+        background-color: whitesmoke;
+      }
     }
   }
 }
