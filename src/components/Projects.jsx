@@ -1,7 +1,20 @@
 import React from 'react'
 import lazy from '../images/ImagenProyectoLazy.jpg'
+import blank from '../images/blankProject.png'
 
 const Projects = () =>{
+    const changeOpacity = ()=>{
+        const nodeList1 = document.getElementsByClassName('projects__box-link2')
+        const linksImg = [...nodeList1]
+        linksImg.forEach((id)=>{
+            id.classList.toggle('projects__box-link')
+        })        
+        const nodeList2 = document.getElementsByClassName('read-more')
+        const linksBox = [...nodeList2]
+        linksBox.forEach((id)=>{
+            id.classList.toggle('projects__box')
+        })     
+    }
     return (
         <div className='projects__container' id='projects'>
             <h2 className='projects__title'>Proyectos personales</h2>
@@ -11,25 +24,40 @@ const Projects = () =>{
                 <div className='projects__box'>
                     <p className='projects__box-text'>LAZY LOADING</p>
                     <img src={lazy} alt="Imagen proyecto lazy loading" className='projects__box-img'/>
-                    <a className='projects__box-link' target='_blank' href="https://emij7.github.io/Manipulacion-DOM-2/">Página del proyecto</a>
-                    <a className='projects__box-link' target='_blank' href="https://github.com/emij7/Manipulacion-DOM-2">Código GITHUB</a>
+                    <a className='projects__box-link' target='_blank' rel="noreferrer" href="https://emij7.github.io/Manipulacion-DOM-2/">Página del proyecto</a>
+                    <a className='projects__box-link' target='_blank' rel="noreferrer" href="https://github.com/emij7/Manipulacion-DOM-2">Código GITHUB</a>
                 </div>
                 <div className='projects__box'>
-                    <p className='projects__box-text'>proximamente</p> 
+                    <p className='projects__box-text'>Próximamente</p> 
+                    <img src={blank} alt="Imagen en blanco. A llenar con proyecto" className='projects__box-img'/>
+                    <p className='projects__box-link' href="/#">...</p>
+                    <p className='projects__box-link' href="/#">...</p>
                 </div>
                 <div className='projects__box'>
-                    <p className='projects__box-text'>proximamente</p> 
+                    <p className='projects__box-text'>Próximamente</p> 
+                    <img src={blank} alt="Imagen en blanco. A llenar con proyecto" className='projects__box-img'/>
+                    <p className='projects__box-link' href="/#">...</p>
+                    <p className='projects__box-link' href="/#">...</p>
                 </div>
-                <div className='projects__box2 read-more'>
-                    <p className='projects__box-text'>proximamente</p> 
+                <div className=' read-more'>
+                    <p className='projects__box-text'>Próximamente</p> 
+                    <img src={blank} alt="Imagen en blanco. A llenar con proyecto" className='projects__box-img'/>
+                    <p className='projects__box-link2' href="/#">...</p>
+                    <p className='projects__box-link2' href="/#">...</p>
                 </div>
-                <div className='projects__box2 read-more'>
-                    <p className='projects__box-text'>proximamente</p> 
+                <div className=' read-more'>
+                    <p className='projects__box-text'>Próximamente</p> 
+                    <img src={blank} alt="Imagen en blanco. A llenar con proyecto" className='projects__box-img'/>
+                    <p className='projects__box-link2' href="/#">...</p>
+                    <p className='projects__box-link2' href="/#">...</p>
                 </div>
-                <div className='projects__box2 read-more'>
-                    <p className='projects__box-text'>proximamente</p> 
+                <div className=' read-more'>
+                    <p className='projects__box-text'>Próximamente</p> 
+                    <img src={blank} alt="Imagen en blanco. A llenar con proyecto" className='projects__box-img'/>
+                    <p className='projects__box-link2' href="/#">...</p>
+                    <p className='projects__box-link2' href="/#">...</p>
                 </div>
-                <label htmlFor="projects-1" className="projects__read-more--trigger"></label>
+                <label htmlFor="projects-1" className="projects__read-more--trigger" onClick={changeOpacity}></label>
             </div>
         </div>
     )

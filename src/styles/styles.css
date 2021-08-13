@@ -230,9 +230,8 @@ h3 {
   margin: 0.5rem 0rem;
 }
 .projects__box-img {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  max-height: 100%;
+  max-width: 100%;
 }
 .projects__box-text {
   background-color: #f7931a;
