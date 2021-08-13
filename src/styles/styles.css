@@ -271,6 +271,7 @@ h3 {
   font-size: inherit;
   min-height: 300px;
   margin: 0.5rem 0rem;
+  max-height: none;
 }
 .projects__read-more--trigger {
   cursor: pointer;
