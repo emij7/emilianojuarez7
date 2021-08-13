@@ -187,6 +187,13 @@ const list = [
         'plataforma':'Platzi',
         'important':false,
         'link':'https://platzi.com/p/emij7/curso/2327-javascript-practico/diploma/detalle/'
+    },
+    {
+        'id':28,
+        'name': 'Curso de Manipulación del DOM',
+        'plataforma':'Platzi',
+        'important':true,
+        'link':'https://platzi.com/p/emij7/curso/2193-dom/diploma/detalle/'
     }
 
 ]
