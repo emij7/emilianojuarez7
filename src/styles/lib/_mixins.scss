@@ -1,7 +1,0 @@
-@mixin grid-flow-column($sizeC, $sizeR, $gap) {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, $sizeC);
-  grid-auto-flow: row;
-  grid-auto-rows: $sizeR;
-  gap: $gap;
-}

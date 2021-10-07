@@ -1,19 +1,12 @@
-import './styles/styles.css';
-import Navbar from './components/Navbar';
-import About from './components/About';
-import CertificationsSearch from './components/CertificationsSearch';
-import Projects from './components/Projects';
-import Footer from './components/Footer';
+import React from 'react';
+import './styles/styles.css'
 
 
 function App() {
   return (
-    <div className='main'>
-      <Navbar />
-      <About />
-      <Projects />
-      <CertificationsSearch />
-      <Footer />
+    <div className='redirect-container'>
+      <h1>Si entraste acá significa que estás desactualizado.</h1>
+      <h2 className='cargando'>Redireccionando a la nueva Home . . .</h2>
     </div>
   );
 }
