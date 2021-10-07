@@ -8,6 +8,7 @@ const About = () =>{
         <div className='about__container'>
             <div className='title'>
                 <h1>¡HOLA!</h1>
+                <p>HOLIIIIIIIIIS</p>
                 <h2>Mi nombre es Ignacio Emiliano Juárez y esta es mi página personal.</h2>
                 <figure className='title__figure'>
                     <img src={myPic} alt="Photograph of Ignacio holding a trophy" />
