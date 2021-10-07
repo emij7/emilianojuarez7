@@ -5,8 +5,9 @@ import './styles/styles.css'
 function App() {
   return (
     <div className='redirect-container'>
-      <h1>Si entraste acá significa que estás desactualizado.</h1>
-      <h2 className='cargando'>Redireccionando a la nueva Home . . .</h2>
+      <h1>Ignacio Emiliano Juárez</h1>
+      <h2>Si entraste acá significa que estás desactualizado.</h2>
+      <h3 className='cargando'>Redireccionando a la nueva Home . . .</h3>
     </div>
   );
 }
